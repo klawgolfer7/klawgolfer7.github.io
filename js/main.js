@@ -13,9 +13,9 @@ $(document).ready(function() {
 
 		$('body').addClass('lightbox-active');
 
-		$('.close').on('click', function() {
-			$('body').removeClass('lightbox-active');
-		});
+		// $('.close').on('click', function() {
+		// 	$('body').removeClass('lightbox-active');
+		// });
 
 	});
 
