@@ -12,12 +12,13 @@ $(document).ready(function() {
 		$('.lightbox img').attr('src', src);
 
 		$('body').addClass('lightbox-active');
-
-		// $('.close').on('click', function() {
-		// 	$('body').removeClass('lightbox-active');
-		// });
+		$('.lightbox img').addClass('resize2');
 
 	});
+		$('.close').on('click', function() {
+			$('body').removeClass('lightbox-active');
+			$('.lightbox img').removeClass('resize2');
+		});
 
 	// change the speed of clicking on the nav bar to get to the section
 	$('.nav-wrapper').onePageNav({

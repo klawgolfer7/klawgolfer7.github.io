@@ -30,6 +30,12 @@ body {
 	height: auto;
 }
 
+.resize2 {
+	float: left;
+	width: 550px;
+	height: 440px;
+}
+
 .lightbox-overlay {
 	opacity: .6;
 	background-color: #000;
@@ -51,7 +57,7 @@ body {
 	display: none;
 	top: 50%;
 	left: 50%;
-	width: 800px;
+	width: 610px;
 	height: 500px;
 	margin-left: -400px;
 	margin-top: -300px;
@@ -69,6 +75,7 @@ body {
 	position: absolute;
 	top: 15px;
 	right: 15px;
+	cursor: pointer;
 }
 
 
