@@ -1,0 +1,186 @@
+/*Styles go here*/
+
+* {
+	box-sizing: border-box;
+}
+
+/* Text Editing */
+
+#firstsection {
+	text-align: center;
+	margin-top: 0px
+
+}
+#test {
+	font-family: ;
+    font-size: 108px;
+    font-weight: 400;
+    color: #F93;
+    text-align: center;
+}
+.names {
+	text-align: center;
+	font-size: 30px
+}
+
+#apartment {
+	text-align: right;
+	margin-right: 200px;
+}
+
+#timeandlocation {
+
+	text-align: center;
+	color: white;
+	outline-color: black;
+	outline-width: 2px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.shadowing {
+	color: white;
+	text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+}
+
+#signature {
+	font-size: 20px;
+	font-style: italic;
+	text-align: right;
+	padding-right: 12px;
+}
+/* ^^^^Text Editing^^^^ */
+
+/* Section and Nav styling*/
+
+
+section {
+	height: 600px;
+	margin-top: -38px;
+	padding-top: 38px;
+}
+
+.nav-wrapper {
+	text-align: center;
+	background-color: lightblue;
+	opacity: .8;
+/*	background: (255,2 55,255,0.5);*/
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.nav-wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-wrapper li {
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.nav-wrapper a {
+	color: red;
+}
+
+.current a {
+	color: purple;
+	font-weight: 700;
+}
+
+#menu-icon {
+	position: absolute;
+	font-size: 32px;
+	top: 0;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+.formbox {
+	background-color: white;
+	margin-right: 400px;
+	margin-left: 400px;
+	font-family: monospace;
+
+}
+/* Background Images for each section.  Taken from Lesson 3 class. */
+body {
+		background-color: #ffe6cc;
+		margin: 0px;
+	}
+	.photo {
+		height: 600px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+	.tall {	height: 1000px;}
+	.tall2 {height: 1500px;}
+	.tall3 {height: 2000px;}
+	.tall4 {height: 2500px;}
+	.tall5 {height: 3000px;}
+
+	.kevkel1 {
+		background-image: url(../img/kevkel1-2.jpg);
+/*		transform: rotate(90deg);*/
+/*		background-position: center center;
+*/	}
+
+	.chi {
+		background-image: url(../img/chiskyline.jpg);
+
+	}
+
+	.brooklake {
+		background-image: url(../img/brooklake.jpg);
+	}
+
+	.holyfamily {
+		background-image: url(../img/holyfamily2.jpg);
+	}
+
+	.code {
+		background-image: url(../img/code.jpg);
+	}
+
+#bgicon {
+	position: absolute;
+	left: 50%;
+}
+
+#bgicon2 {
+	float: left;
+	left: 80%;
+}
+
+#next {
+	margin-bottom: 12px;
+	margin-top: 6px;
+}
+
+/*Adjustment for Ipad and lower devices*/
+@media (max-width: 760px) {
+	.nav-wrapper nav {
+		display: none;
+	}
+
+	.nav-wrapper li {
+		display: block;
+	}
+
+	#menu-icon {
+		display: block;
+	}
+}
